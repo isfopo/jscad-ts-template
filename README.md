@@ -6,6 +6,12 @@ A template for creating JSCAD scripts in Typescript.
 
 Create a new project using this template:
 
+Either click the green `Use this template` button on Github or use `degit` in the directory you want to project to be in:
+
+```sh
+npx degit https://github.com/isfopo/jscad-ts-template my-project
+```
+
 Run `npm install` to install dependencies.
 
 ## Development
