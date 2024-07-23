@@ -1,15 +1,15 @@
 {
   "name": "object-js-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A template for creating a 3D object in JavaScript using JSCAD",
   "main": "build/index.js",
+  "author": "isfopo",
+  "license": "ISC",
   "scripts": {
     "start": "tsc-watch --onSuccess \"jscad .\"",
     "build": "tsc && jscad .",
     "print": "npm run build && open build/index.stl"
   },
-  "author": "isfopo",
-  "license": "ISC",
   "devDependencies": {
     "@jscad/cli": "^2.3.2",
     "@jscad/modeling": "^2.12.2",
