@@ -10,11 +10,9 @@
   },
   "author": "isfopo",
   "license": "ISC",
-  "dependencies": {
-    "@jscad/cli": "^2.3.2",
-    "@jscad/modeling": "^2.12.2"
-  },
   "devDependencies": {
+    "@jscad/cli": "^2.3.2",
+    "@jscad/modeling": "^2.12.2",
     "@types/node": "^20.14.11",
     "tsc-watch": "^6.2.0",
     "typescript": "^5.5.3"
